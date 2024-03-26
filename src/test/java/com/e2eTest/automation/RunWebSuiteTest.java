@@ -22,7 +22,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 		features = {"src/spec/feature"},
 		// glue = {"step_definition"(emplacement de runner)}, (si la classe runner dans un package on ajoute l'option glue) 
 		plugin = {"pretty", "html:target/cucumber-report.html", "json:target/cucumber.json"},
-		tags = ("@authentification"),
+		tags = ("@addcategories"),
 		monochrome = true,
 		snippets = CAMELCASE 
 		)
